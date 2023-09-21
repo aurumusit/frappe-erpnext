@@ -1,0 +1,461 @@
+2023-07-18 17:35:00,920 DEBUG cd frappe-bench && python3 -m venv env
+2023-07-18 17:35:05,666 DEBUG cd frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-07-18 17:35:08,079 DEBUG cd frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-07-18 17:35:14,416 LOG Getting frappe
+2023-07-18 17:35:14,416 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-07-18 17:35:17,146 LOG Installing frappe
+2023-07-18 17:35:17,147 DEBUG cd /home/admin123/frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin123/frappe-bench/apps/frappe 
+2023-07-18 17:35:51,247 DEBUG cd /home/admin123/frappe-bench/apps/frappe && yarn install
+2023-07-18 17:36:37,741 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-18 17:36:37,742 DEBUG cd frappe-bench && bench build
+2023-07-18 17:36:37,881 INFO /usr/local/bin/bench build
+2023-07-18 17:37:04,680 LOG setting up backups
+2023-07-18 17:37:04,690 LOG backups were set up
+2023-07-18 17:37:04,690 INFO Bench frappe-bench initialized
+2023-07-18 17:38:02,208 INFO /usr/local/bin/bench new-site auerp.com
+2023-07-18 17:39:11,328 INFO /usr/local/bin/bench get-app payments
+2023-07-18 17:39:26,732 LOG Getting payments
+2023-07-18 17:39:26,732 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2023-07-18 17:39:47,260 LOG Installing payments
+2023-07-18 17:39:47,448 DEBUG cd /home/admin123/frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin123/frappe-bench/apps/payments 
+2023-07-18 17:40:07,371 DEBUG bench build --app payments
+2023-07-18 17:40:07,508 INFO /usr/local/bin/bench build --app payments
+2023-07-18 17:40:12,894 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-18 17:40:26,815 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2023-07-18 17:40:32,244 LOG Getting erpnext
+2023-07-18 17:40:32,244 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-07-18 17:40:38,407 LOG Installing erpnext
+2023-07-18 17:40:38,598 DEBUG cd /home/admin123/frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin123/frappe-bench/apps/erpnext 
+2023-07-18 17:41:28,934 DEBUG cd /home/admin123/frappe-bench/apps/erpnext && yarn install
+2023-07-18 17:41:50,384 DEBUG bench build --app erpnext
+2023-07-18 17:41:50,520 INFO /usr/local/bin/bench build --app erpnext
+2023-07-18 17:41:57,687 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-18 17:42:26,266 INFO /usr/local/bin/bench get-app hrms
+2023-07-18 17:42:41,700 LOG Getting hrms
+2023-07-18 17:42:41,700 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-07-18 17:42:52,622 LOG Installing hrms
+2023-07-18 17:42:52,856 DEBUG cd /home/admin123/frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin123/frappe-bench/apps/hrms 
+2023-07-18 17:42:56,595 DEBUG cd /home/admin123/frappe-bench/apps/hrms && yarn install
+2023-07-18 17:43:03,251 DEBUG bench build --app hrms
+2023-07-18 17:43:03,389 INFO /usr/local/bin/bench build --app hrms
+2023-07-18 17:43:09,395 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-18 17:44:05,079 INFO /usr/local/bin/bench --site auerp.com install-app erpnext
+2023-07-18 17:45:41,727 INFO /usr/local/bin/bench use auerp.com
+2023-07-18 17:45:58,895 INFO /usr/local/bin/bench start
+2023-07-18 17:45:59,197 INFO /usr/local/bin/bench serve --port 8000
+2023-07-18 17:45:59,259 INFO /usr/local/bin/bench watch
+2023-07-18 17:45:59,268 INFO /usr/local/bin/bench schedule
+2023-07-18 17:45:59,321 INFO /usr/local/bin/bench worker
+2023-07-18 17:52:18,095 INFO /usr/local/bin/bench --site auerp.com enable-scheduler
+2023-07-18 17:52:40,835 INFO /usr/local/bin/bench --site auerp.com set-maintenance-mode off
+2023-07-18 17:53:02,778 INFO /usr/local/bin/bench setup production admin123
+2023-07-18 17:53:02,785 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2023-07-18 17:53:36,161 DEBUG bench setup role fail2ban
+2023-07-18 17:53:36,318 INFO /usr/local/bin/bench setup role fail2ban
+2023-07-18 17:54:02,192 DEBUG bench setup role nginx
+2023-07-18 17:54:02,374 INFO /usr/local/bin/bench setup role nginx
+2023-07-18 17:54:44,570 DEBUG bench setup role supervisor
+2023-07-18 17:54:44,750 INFO /usr/local/bin/bench setup role supervisor
+2023-07-18 17:55:00,998 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-07-18 17:55:00,999 LOG Updated supervisord.conf: 'chown' changed from '' to 'admin123:admin123'
+2023-07-18 17:55:01,149 DEBUG sudo /usr/sbin/nginx -t
+2023-07-18 17:55:01,178 DEBUG sudo systemctl reload nginx
+2023-07-18 17:55:15,811 INFO /usr/local/bin/bench setup nginx
+2023-07-18 17:56:46,842 INFO /usr/local/bin/bench setup production admin123
+2023-07-18 17:56:46,850 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-07-18 17:56:46,850 LOG Updated supervisord.conf: 'chown' changed from '' to 'admin123:admin123'
+2023-07-18 17:56:51,989 DEBUG /usr/bin/supervisorctl reread
+2023-07-18 17:56:52,382 DEBUG /usr/bin/supervisorctl update
+2023-07-18 17:56:52,677 DEBUG sudo /usr/sbin/nginx -t
+2023-07-18 17:56:52,693 DEBUG sudo systemctl reload nginx
+2023-07-18 17:56:52,791 INFO /usr/local/bin/bench schedule
+2023-07-18 17:56:52,794 INFO /usr/local/bin/bench worker --queue default
+2023-07-18 17:56:52,861 INFO /usr/local/bin/bench worker --queue short
+2023-07-18 17:56:52,862 INFO /usr/local/bin/bench worker --queue long
+2023-07-18 18:00:01,849 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-19 00:00:01,522 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-19 06:00:01,189 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-20 10:36:52,350 INFO /usr/local/bin/bench worker --queue long
+2023-07-20 10:36:52,350 INFO /usr/local/bin/bench worker --queue default
+2023-07-20 10:36:52,350 INFO /usr/local/bin/bench schedule
+2023-07-20 10:36:52,356 INFO /usr/local/bin/bench worker --queue short
+2023-07-20 12:00:01,749 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-20 14:19:14,721 INFO /usr/local/bin/bench worker --queue default
+2023-07-20 14:19:14,721 INFO /usr/local/bin/bench worker --queue short
+2023-07-20 14:19:14,721 INFO /usr/local/bin/bench schedule
+2023-07-20 14:19:14,721 INFO /usr/local/bin/bench worker --queue long
+2023-07-20 14:33:08,638 INFO /usr/local/bin/bench schedule
+2023-07-20 14:33:08,638 INFO /usr/local/bin/bench worker --queue default
+2023-07-20 14:33:08,638 INFO /usr/local/bin/bench worker --queue short
+2023-07-20 14:33:08,638 INFO /usr/local/bin/bench worker --queue long
+2023-07-20 18:00:01,936 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-21 00:00:01,996 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-21 06:00:01,980 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-21 12:00:01,907 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-21 12:05:02,992 INFO /usr/local/bin/bench setup nginx
+2023-07-21 12:06:08,934 INFO /usr/local/bin/bench setup nginx
+2023-07-21 12:07:08,602 INFO /usr/local/bin/bench setup nginx
+2023-07-21 12:08:34,040 INFO /usr/local/bin/bench config dns_multitenant off
+2023-07-21 12:09:19,197 INFO /usr/local/bin/bench new-site erp.1click.com
+2023-07-21 12:12:51,795 INFO /usr/local/bin/bench set-nginx-port erp.1click.com 82
+2023-07-21 12:14:31,085 INFO /usr/local/bin/bench setup nginx
+2023-07-21 12:19:20,180 INFO /usr/local/bin/bench --site erp.1click.com install-app erpnext
+2023-07-21 14:36:17,214 INFO /usr/local/bin/bench config dns_multitenant on
+2023-07-21 14:38:53,933 INFO /usr/local/bin/bench new-site erp.echemportal.com
+2023-07-21 14:40:00,551 INFO /usr/local/bin/bench setup nginx
+2023-07-21 14:41:40,062 INFO /usr/local/bin/bench --site erp.echemportal.com install-app erpnext
+2023-07-21 14:47:16,169 INFO /usr/local/bin/bench config dns_multitenant on
+2023-07-21 14:47:41,053 INFO /usr/local/bin/bench new-site erp.aurumwholesale.com
+2023-07-21 14:48:47,768 INFO /usr/local/bin/bench setup nginx
+2023-07-21 14:49:27,509 INFO /usr/local/bin/bench --site erp.aurumwholesale.com install-app erpnext
+2023-07-21 16:59:53,066 INFO /usr/local/bin/bench new-site erpenzemic.mol-tech.com
+2023-07-21 17:01:57,736 INFO /usr/local/bin/bench setup nginx
+2023-07-21 17:02:33,323 INFO /usr/local/bin/bench --site erpenzemic.mol-tech.com install-app erpnext
+2023-07-21 17:10:12,529 INFO /usr/local/bin/bench setup nginx
+2023-07-21 17:11:23,313 INFO /usr/local/bin/bench setup nginx
+2023-07-21 17:11:33,841 INFO /usr/local/bin/bench config dns_multitenant on
+2023-07-21 18:00:01,729 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-22 00:00:01,694 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-22 06:00:01,663 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-22 12:00:01,783 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-22 18:00:01,564 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-23 00:00:01,644 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-23 06:00:02,180 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-23 12:00:02,154 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-23 18:00:01,803 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-24 00:00:01,482 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-24 06:00:01,377 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-24 12:00:01,341 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-24 18:00:02,019 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-25 00:00:01,269 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-25 06:00:01,900 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-25 12:00:01,588 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-25 17:29:17,734 INFO /usr/local/bin/bench schedule
+2023-07-25 17:29:17,734 INFO /usr/local/bin/bench worker --queue long
+2023-07-25 17:29:17,734 INFO /usr/local/bin/bench worker --queue short
+2023-07-25 17:29:17,734 INFO /usr/local/bin/bench worker --queue default
+2023-07-25 18:00:02,053 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-26 00:00:01,631 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-26 06:00:01,592 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-26 12:00:01,890 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-26 18:00:01,628 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-27 00:00:01,186 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-27 06:00:01,342 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-27 10:47:59,949 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 10:47:59,949 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 10:47:59,949 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 10:47:59,949 INFO /usr/local/bin/bench schedule
+2023-07-27 11:39:20,928 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 11:39:20,928 INFO /usr/local/bin/bench schedule
+2023-07-27 11:39:20,928 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 11:39:20,928 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 11:55:31,065 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 11:55:31,066 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 11:55:31,066 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 11:55:31,066 INFO /usr/local/bin/bench schedule
+2023-07-27 12:00:01,347 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-27 12:04:46,234 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 12:04:46,234 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 12:04:46,234 INFO /usr/local/bin/bench schedule
+2023-07-27 12:04:46,234 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 12:20:19,980 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 12:20:19,980 INFO /usr/local/bin/bench schedule
+2023-07-27 12:20:19,980 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 12:20:19,980 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 16:17:18,023 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 16:17:18,023 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 16:17:18,023 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 16:17:18,023 INFO /usr/local/bin/bench schedule
+2023-07-27 17:26:12,008 INFO /usr/local/bin/bench worker --queue default
+2023-07-27 17:26:12,008 INFO /usr/local/bin/bench worker --queue short
+2023-07-27 17:26:12,008 INFO /usr/local/bin/bench schedule
+2023-07-27 17:26:12,008 INFO /usr/local/bin/bench worker --queue long
+2023-07-27 18:00:01,822 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-28 00:00:01,284 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-28 06:00:02,155 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-28 12:00:02,120 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-28 18:00:01,911 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-29 00:00:01,755 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-29 06:00:01,445 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-29 12:00:01,756 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-29 18:00:01,552 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-30 00:00:01,705 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-30 06:00:01,927 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-30 12:00:01,538 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-30 18:00:01,286 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-31 00:00:01,292 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-31 06:00:01,685 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-31 12:00:02,058 INFO /usr/local/bin/bench --verbose --site all backup
+2023-07-31 18:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-01 00:00:01,413 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-01 06:00:02,082 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-01 12:00:01,932 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-01 18:00:01,750 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-02 00:00:01,625 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-02 06:00:01,404 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-02 12:00:01,323 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-02 18:00:01,536 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-03 00:00:01,720 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-03 06:00:01,568 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-03 12:00:01,560 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-03 18:00:01,504 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-04 00:00:01,576 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-04 06:00:01,751 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-04 12:00:01,406 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-04 18:00:01,400 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-05 00:00:01,172 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-05 06:00:01,834 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-05 12:00:01,938 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-05 18:00:01,926 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-06 00:00:01,227 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-06 06:00:01,804 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-06 07:30:05,625 INFO /usr/local/bin/bench worker --queue short
+2023-08-06 07:30:05,625 INFO /usr/local/bin/bench worker --queue long
+2023-08-06 07:30:05,625 INFO /usr/local/bin/bench schedule
+2023-08-06 07:30:05,625 INFO /usr/local/bin/bench worker --queue default
+2023-08-06 12:00:01,803 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-06 18:00:01,665 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-07 00:00:01,468 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-07 06:00:01,314 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-07 12:00:01,191 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-07 18:00:01,916 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-07 19:56:58,301 INFO /usr/local/bin/bench worker --queue default
+2023-08-07 19:56:58,301 INFO /usr/local/bin/bench worker --queue short
+2023-08-07 19:56:58,301 INFO /usr/local/bin/bench schedule
+2023-08-07 19:56:58,301 INFO /usr/local/bin/bench worker --queue long
+2023-08-07 23:10:23,533 INFO /usr/local/bin/bench worker --queue long
+2023-08-07 23:10:23,533 INFO /usr/local/bin/bench worker --queue default
+2023-08-07 23:10:23,533 INFO /usr/local/bin/bench worker --queue short
+2023-08-07 23:10:23,533 INFO /usr/local/bin/bench schedule
+2023-08-08 00:00:01,666 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-08 06:00:01,609 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-08 12:00:01,971 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-08 15:02:34,112 INFO /usr/local/bin/bench version
+2023-08-08 18:00:01,303 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-09 00:00:01,899 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-09 06:00:02,000 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-09 10:45:30,215 INFO /usr/local/bin/bench sites
+2023-08-09 10:45:36,471 INFO /usr/local/bin/bench --help
+2023-08-09 10:46:58,546 INFO /usr/local/bin/bench list-sites
+2023-08-09 10:47:07,550 INFO /usr/local/bin/bench list-sites
+2023-08-09 10:47:52,299 INFO /usr/local/bin/bench list
+2023-08-09 10:47:58,706 INFO /usr/local/bin/bench --list
+2023-08-09 10:48:30,205 INFO /usr/local/bin/bench --site all list-apps
+2023-08-09 12:00:02,088 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-09 14:16:21,855 INFO /usr/local/bin/bench --site https://erpenzemic.mol-tech.com/ logs
+2023-08-09 14:16:31,749 INFO /usr/local/bin/bench --site https://erpenzemic.mol-tech.com/logs
+2023-08-09 14:31:10,183 INFO /usr/local/bin/bench restart
+2023-08-09 14:31:14,387 WARNING /usr/local/bin/bench restart executed with exit code 1
+2023-08-09 14:31:14,669 INFO A newer version of bench is available: 5.16.4 → 5.17.0
+2023-08-09 14:32:10,949 INFO /usr/local/bin/bench --site erpenzemic.mol-tech.com restart
+2023-08-09 14:32:10,952 WARNING /usr/local/bin/bench --site erpenzemic.mol-tech.com restart executed with exit code 2
+2023-08-09 14:32:11,181 INFO A newer version of bench is available: 5.16.4 → 5.17.0
+2023-08-09 14:32:23,544 INFO /usr/local/bin/bench erpenzemic.mol-tech.com restart
+2023-08-09 14:32:41,922 INFO /usr/local/bin/bench --site erpenzemic.mol-tech.com restart
+2023-08-09 14:32:41,925 WARNING /usr/local/bin/bench --site erpenzemic.mol-tech.com restart executed with exit code 2
+2023-08-09 14:32:42,120 INFO A newer version of bench is available: 5.16.4 → 5.17.0
+2023-08-09 14:32:53,475 INFO /usr/local/bin/bench --site all list-apps
+2023-08-09 14:33:42,741 INFO /usr/local/bin/bench restart
+2023-08-09 14:33:48,942 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-08-09 14:33:51,113 INFO /usr/local/bin/bench worker --queue long
+2023-08-09 14:33:51,120 INFO /usr/local/bin/bench worker --queue default
+2023-08-09 14:33:51,147 INFO /usr/local/bin/bench schedule
+2023-08-09 14:33:51,159 INFO /usr/local/bin/bench worker --queue short
+2023-08-09 14:33:54,332 INFO A newer version of bench is available: 5.16.4 → 5.17.0
+2023-08-09 15:15:24,614 INFO /usr/local/bin/bench restart
+2023-08-09 15:15:29,417 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-08-09 15:15:32,509 INFO /usr/local/bin/bench schedule
+2023-08-09 15:15:32,512 INFO /usr/local/bin/bench worker --queue short
+2023-08-09 15:15:32,532 INFO /usr/local/bin/bench worker --queue long
+2023-08-09 15:15:32,538 INFO /usr/local/bin/bench worker --queue default
+2023-08-09 15:15:35,684 INFO A newer version of bench is available: 5.16.4 → 5.17.0
+2023-08-09 18:00:02,144 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-10 00:00:01,228 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-10 06:00:01,695 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-10 12:00:01,354 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-10 18:00:02,130 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-11 00:00:02,076 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-11 06:00:01,510 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-11 12:00:01,711 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-11 18:00:01,221 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-12 00:00:01,906 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-12 06:00:01,506 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-12 12:00:01,997 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-12 18:00:01,716 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-13 00:00:01,764 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-13 06:00:01,520 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-13 12:00:02,116 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-13 18:00:01,620 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-14 00:00:01,368 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-14 06:00:01,813 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-14 12:00:02,087 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-14 18:00:02,152 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-15 00:00:01,414 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-15 06:00:01,469 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-15 12:00:01,654 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-15 18:00:01,497 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-16 00:00:01,449 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-16 06:00:01,685 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-16 12:00:01,305 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-16 18:00:01,814 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-17 00:00:01,480 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-17 06:00:01,555 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-17 12:00:01,929 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-17 18:00:02,120 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-18 00:00:01,168 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-18 06:00:01,691 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-18 11:04:52,690 INFO /usr/local/bin/bench schedule
+2023-08-18 11:04:52,690 INFO /usr/local/bin/bench worker --queue long
+2023-08-18 11:04:52,690 INFO /usr/local/bin/bench worker --queue default
+2023-08-18 11:04:52,690 INFO /usr/local/bin/bench worker --queue short
+2023-08-18 12:00:01,573 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-18 18:00:01,501 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-19 00:00:01,758 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-19 06:00:02,136 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-19 12:00:01,617 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-19 18:00:01,438 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-20 00:00:02,205 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-20 06:00:01,933 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-20 12:00:01,911 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-20 18:00:01,965 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-21 00:00:01,415 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-21 06:00:01,539 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-21 12:00:01,358 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-21 18:00:02,092 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-22 00:00:02,000 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-22 06:00:02,181 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-22 12:00:01,235 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-22 18:00:01,754 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-23 00:00:01,267 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-23 06:00:01,672 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-23 12:00:01,181 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-23 18:00:01,706 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-24 00:00:01,874 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-24 06:00:01,509 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-24 12:00:01,318 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-24 13:06:42,221 INFO /usr/local/bin/bench --site erp.aurumwholesale.com reinstall
+2023-08-24 18:00:01,699 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-25 00:00:01,519 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-25 06:00:01,618 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-25 12:00:01,716 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-25 18:00:01,267 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-26 00:00:02,015 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-26 06:00:02,141 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-26 12:00:01,546 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-26 18:00:01,966 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-27 00:00:01,981 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-27 06:00:01,862 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-27 12:00:01,769 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-27 18:00:01,452 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-28 00:00:01,633 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-28 06:00:01,922 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-28 12:00:01,400 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-28 18:00:01,406 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-29 00:00:01,449 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-29 06:00:01,394 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-29 12:00:01,840 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-29 18:00:01,818 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-30 00:00:02,106 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-30 06:00:01,646 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-30 12:00:01,575 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-30 18:00:01,834 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-31 00:00:02,111 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-31 06:00:01,195 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-31 12:00:02,153 INFO /usr/local/bin/bench --verbose --site all backup
+2023-08-31 14:40:22,383 INFO /usr/local/bin/bench restart
+2023-08-31 14:40:26,863 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-08-31 14:40:29,137 INFO /usr/local/bin/bench schedule
+2023-08-31 14:40:29,140 INFO /usr/local/bin/bench worker --queue default
+2023-08-31 14:40:29,175 INFO /usr/local/bin/bench worker --queue long
+2023-08-31 14:40:29,175 INFO /usr/local/bin/bench worker --queue short
+2023-08-31 14:40:32,301 INFO A newer version of bench is available: 5.16.4 → 5.17.1
+2023-08-31 16:02:36,857 INFO /usr/local/bin/bench restart
+2023-08-31 16:02:42,667 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-08-31 16:02:44,784 INFO /usr/local/bin/bench worker --queue short
+2023-08-31 16:02:44,785 INFO /usr/local/bin/bench worker --queue long
+2023-08-31 16:02:44,797 INFO /usr/local/bin/bench worker --queue default
+2023-08-31 16:02:44,808 INFO /usr/local/bin/bench schedule
+2023-08-31 16:02:47,971 INFO A newer version of bench is available: 5.16.4 → 5.17.1
+2023-08-31 16:12:09,840 INFO /usr/local/bin/bench restart
+2023-08-31 16:12:10,604 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-08-31 16:12:13,823 INFO /usr/local/bin/bench schedule
+2023-08-31 16:12:13,833 INFO /usr/local/bin/bench worker --queue short
+2023-08-31 16:12:13,837 INFO /usr/local/bin/bench worker --queue long
+2023-08-31 16:12:13,843 INFO /usr/local/bin/bench worker --queue default
+2023-08-31 16:12:16,930 INFO A newer version of bench is available: 5.16.4 → 5.17.1
+2023-08-31 18:00:01,569 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-01 00:00:01,635 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-01 06:00:01,949 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-01 12:00:02,161 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-01 18:00:01,390 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-02 00:00:01,471 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-02 06:00:01,431 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-02 12:00:01,966 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-02 18:00:01,376 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-03 00:00:02,014 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-03 06:00:01,222 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-03 12:00:01,965 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-03 18:00:01,965 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-03 23:00:40,315 INFO /usr/local/bin/bench worker --queue default
+2023-09-03 23:00:40,315 INFO /usr/local/bin/bench schedule
+2023-09-03 23:00:40,315 INFO /usr/local/bin/bench worker --queue short
+2023-09-03 23:00:40,315 INFO /usr/local/bin/bench worker --queue long
+2023-09-04 00:00:01,558 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-04 06:00:02,042 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-04 12:00:01,528 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-04 18:00:01,971 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-05 00:00:01,357 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-05 06:00:01,567 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-05 12:00:01,368 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-07 10:48:36,915 INFO /usr/local/bin/bench worker --queue default
+2023-09-07 10:48:36,915 INFO /usr/local/bin/bench worker --queue long
+2023-09-07 10:48:36,915 INFO /usr/local/bin/bench worker --queue short
+2023-09-07 10:48:36,915 INFO /usr/local/bin/bench schedule
+2023-09-07 11:21:55,422 INFO /usr/local/bin/bench --site erp.aurumwholesale.com execute erpnext.demo.demo.make
+2023-09-07 11:22:50,447 INFO /usr/local/bin/bench get-app erpnext_demo https://github.com/frappe/erpnext_demo
+2023-09-07 11:22:50,458 LOG Getting erpnext_demo
+2023-09-07 11:22:50,458 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext_demo  --depth 1 --origin upstream
+2023-09-07 11:22:51,130 LOG Installing erpnext_demo
+2023-09-07 11:22:51,353 DEBUG cd /home/admin123/frappe-bench && /home/admin123/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin123/frappe-bench/apps/erpnext_demo 
+2023-09-07 11:22:55,881 DEBUG bench build --app erpnext_demo
+2023-09-07 11:22:56,085 INFO /usr/local/bin/bench build --app erpnext_demo
+2023-09-07 11:22:58,413 WARNING bench build --app erpnext_demo executed with exit code 1
+2023-09-07 11:22:58,413 WARNING /usr/local/bin/bench get-app erpnext_demo https://github.com/frappe/erpnext_demo executed with exit code 1
+2023-09-07 11:22:58,808 INFO A newer version of bench is available: 5.16.4 → 5.17.2
+2023-09-07 12:00:02,073 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-07 12:52:29,664 INFO /usr/local/bin/bench restart
+2023-09-07 12:52:34,317 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-09-07 12:52:37,638 INFO /usr/local/bin/bench worker --queue short
+2023-09-07 12:52:37,640 INFO /usr/local/bin/bench schedule
+2023-09-07 12:52:37,643 INFO /usr/local/bin/bench worker --queue long
+2023-09-07 12:52:37,663 INFO /usr/local/bin/bench worker --queue default
+2023-09-07 12:52:40,697 INFO A newer version of bench is available: 5.16.4 → 5.17.2
+2023-09-07 13:14:21,362 INFO /usr/local/bin/bench restart
+2023-09-07 13:14:31,140 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-09-07 13:14:33,851 INFO /usr/local/bin/bench schedule
+2023-09-07 13:14:33,859 INFO /usr/local/bin/bench worker --queue long
+2023-09-07 13:14:33,895 INFO /usr/local/bin/bench worker --queue short
+2023-09-07 13:14:33,895 INFO /usr/local/bin/bench worker --queue default
+2023-09-07 13:14:37,078 INFO A newer version of bench is available: 5.16.4 → 5.17.2
+2023-09-07 13:39:49,681 INFO /usr/local/bin/bench restart
+2023-09-07 13:39:53,679 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-09-07 13:39:55,676 INFO /usr/local/bin/bench schedule
+2023-09-07 13:39:55,678 INFO /usr/local/bin/bench worker --queue long
+2023-09-07 13:39:55,710 INFO /usr/local/bin/bench worker --queue short
+2023-09-07 13:39:55,749 INFO /usr/local/bin/bench worker --queue default
+2023-09-07 13:39:58,040 INFO A newer version of bench is available: 5.16.4 → 5.17.2
+2023-09-07 15:32:21,987 INFO /usr/local/bin/bench restart
+2023-09-07 15:32:27,018 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-09-07 15:32:29,350 INFO /usr/local/bin/bench worker --queue default
+2023-09-07 15:32:29,369 INFO /usr/local/bin/bench worker --queue long
+2023-09-07 15:32:29,369 INFO /usr/local/bin/bench schedule
+2023-09-07 15:32:29,374 INFO /usr/local/bin/bench worker --queue short
+2023-09-07 15:32:32,488 INFO A newer version of bench is available: 5.16.4 → 5.17.2
+2023-09-14 12:48:16,889 INFO /usr/local/bin/bench worker --queue default
+2023-09-14 12:48:16,889 INFO /usr/local/bin/bench schedule
+2023-09-14 12:48:16,889 INFO /usr/local/bin/bench worker --queue long
+2023-09-14 12:48:16,889 INFO /usr/local/bin/bench worker --queue short
+2023-09-21 10:37:47,099 INFO /usr/local/bin/bench schedule
+2023-09-21 10:37:47,099 INFO /usr/local/bin/bench worker --queue short
+2023-09-21 10:37:47,100 INFO /usr/local/bin/bench worker --queue default
+2023-09-21 10:37:47,100 INFO /usr/local/bin/bench worker --queue long

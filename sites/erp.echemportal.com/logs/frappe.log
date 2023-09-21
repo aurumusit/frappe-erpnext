@@ -1,0 +1,3 @@
+2023-08-08 15:40:19,821 ERROR frappe New Exception collected with id: 2023-08-08 15:40:19.718954-47.190.78.200-ed7
+Site: erp.echemportal.com
+Form Dict: {'txt': '', 'doctype': 'Custom HTML Block', 'reference_doctype': '', 'query': 'frappe.desk.doctype.custom_html_block.custom_html_block.get_custom_blocks_for_user', 'cmd': 'frappe.desk.search.search_link'}

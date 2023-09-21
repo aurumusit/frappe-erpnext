@@ -1,0 +1,10 @@
+2023-07-25 14:16:02,315 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 14:43:02,516 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 15:10:02,713 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 15:37:02,934 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 16:04:03,210 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 16:31:03,415 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 16:58:03,636 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 17:25:03,838 Cleaning registries for queue: home-admin123-frappe-bench:short
+2023-07-25 17:27:58,969 Warm shut down requested
+2023-07-25 17:27:58,970 Unsubscribing from channel rq:pubsub:553f2e0d5a64429e880f5a2e44a33ea3.ubuntupc.1471.home-admin123-frappe-bench:short

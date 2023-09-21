@@ -1,0 +1,27 @@
+2023-07-23 19:10:59,541 ERROR scheduler Exception in Enqueue Events for Site erp.echemportal.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/rq/job.py", line 552, in restore
+    raw_data = obj['data']
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 73, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 91, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 299, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 338, in get_running_jobs_in_queue
+    current_job = worker.get_current_job()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 421, in get_current_job
+    return self.job_class.fetch(job_id, self.connection, self.serializer)
+  File "env/lib/python3.10/site-packages/rq/job.py", line 372, in fetch
+    job.refresh()
+  File "env/lib/python3.10/site-packages/rq/job.py", line 618, in refresh
+    self.restore(data)
+  File "env/lib/python3.10/site-packages/rq/job.py", line 554, in restore
+    raise NoSuchJobError('Unexpected job format: {0}'.format(obj))
+rq.exceptions.NoSuchJobError: Unexpected job format: {'worker_name': b'83127190d2ea438db5417600bec5b5f0.ubuntupc.1466.home-admin123-frappe-bench:default', 'status': b'started', 'started_at': b'2023-07-24T00:10:59.512741Z', 'last_heartbeat': b'2023-07-24T00:10:59.512741Z'}
+

@@ -1,0 +1,279 @@
+2023-07-21 14:48:19,942 ERROR frappe New Exception collected with id: 2023-07-21 14:48:19.878020-45.23.177.17-139
+Site: erp.aurumwholesale.com
+Form Dict: {'user': 'Administrator'}
+2023-07-21 14:48:31,770 ERROR frappe New Exception collected with id: 2023-07-21 14:48:31.692319-45.23.177.17-6ba
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Website Theme', 'fields': '["`tabWebsite Theme`.`name`","`tabWebsite Theme`.`owner`","`tabWebsite Theme`.`creation`","`tabWebsite Theme`.`modified`","`tabWebsite Theme`.`modified_by`","`tabWebsite Theme`.`_user_tags`","`tabWebsite Theme`.`_comments`","`tabWebsite Theme`.`_assign`","`tabWebsite Theme`.`_liked_by`","`tabWebsite Theme`.`docstatus`","`tabWebsite Theme`.`idx`","`tabWebsite Theme`.`theme`","`tabWebsite Theme`.`module`"]', 'filters': '[]', 'order_by': '`tabWebsite Theme`.`modified` DESC', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabWebsite Theme`.`name`', 'with_comment_count': 'true'}
+2023-08-08 15:40:19,821 ERROR frappe New Exception collected with id: 2023-08-08 15:40:19.718954-47.190.78.200-ed7
+Site: erp.echemportal.com
+Form Dict: {'txt': '', 'doctype': 'Custom HTML Block', 'reference_doctype': '', 'query': 'frappe.desk.doctype.custom_html_block.custom_html_block.get_custom_blocks_for_user', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-09 13:35:39,484 ERROR frappe New Exception collected with id: 2023-08-09 13:35:39.385092-47.190.78.210-c48
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'frappe.integrations.oauth2.authorize'}
+2023-08-09 13:39:52,406 ERROR frappe New Exception collected with id: 2023-08-09 13:39:52.403590-47.190.78.210-1a1
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'test data'}
+2023-08-09 14:04:45,582 ERROR frappe New Exception collected with id: 2023-08-09 14:04:45.489917-47.190.78.210-0e5
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'test data'}
+2023-08-09 15:40:58,704 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'Lay', 'age': '22', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:41:23,580 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'Lay', 'age': '22', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:41:59,495 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'Lay', 'age': '22', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:42:32,026 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'Lay', 'age': '22', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:44:54,153 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'Lay', 'age': '22', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:48:08,428 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:49:05,175 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:49:58,324 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'Name': 'Lay', 'age': '22', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:55:18,325 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'key1': '********', 'key2': '********', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:56:19,164 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'key1': '********', 'key2': '********', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:56:38,736 ERROR frappe Error receiving data: 'bytes' object is not callable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'key1': '********', 'key2': '********', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 15:59:10,866 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'key1': '********', 'key2': '********', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 16:05:23,653 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'key1': '********', 'key2': '********', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 16:25:23,596 ERROR frappe Error receiving data: Object of type bytes is not JSON serializable
+Site: erpenzemic.mol-tech.com
+Form Dict: {'key1': '********', 'key2': '********', 'cmd': 'erpnext.testhook.receive_data'}
+2023-08-09 16:26:26,141 ERROR frappe Error creating item: 
+Site: erpenzemic.mol-tech.com
+Form Dict: {'item_code': 'item123', 'item_name': 'Sample Item', 'description': 'This is a sample item', 'cmd': 'erpnext.itemhook.receive_data'}
+2023-08-09 16:40:20,060 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.itemhook.receive_data'}
+2023-08-18 14:33:33,337 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 14:33:47,052 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 16:58:35,360 ERROR frappe New Exception collected with id: 2023-08-18 16:58:35.303493-47.190.78.210-005
+Site: erpenzemic.mol-tech.com
+Form Dict: {'item_code': 'test_Item', 'item_name': 'Test Item Name', 'description': 'This is a new item created via webhook', 'stock_uom': 'Nos', 'cmd': 'erpnext.testhook.create_item'}
+2023-08-18 16:59:23,793 ERROR frappe New Exception collected with id: 2023-08-18 16:59:23.729647-47.190.78.200-cce
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.create_item'}
+2023-08-18 17:09:15,053 ERROR frappe New Exception collected with id: 2023-08-18 17:09:14.955495-47.190.78.210-50a
+Site: erpenzemic.mol-tech.com
+Form Dict: {'item_code': 'test_Item', 'item_name': 'Test Item Name', 'description': 'This is a new item created via webhook', 'stock_uom': 'Nos', 'cmd': 'erpnext.testhook.create_item'}
+2023-08-18 17:09:57,714 ERROR frappe New Exception collected with id: 2023-08-18 17:09:57.631527-47.190.78.200-fbb
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.create_item'}
+2023-08-18 17:16:26,628 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:16:28,310 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:16:51,160 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:18:21,506 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:20:13,295 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:20:16,054 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:27:28,638 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:32:56,302 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:33:34,417 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:35:18,655 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:39:21,279 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:41:28,058 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:41:30,156 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:41:31,081 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:41:31,847 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:41:33,389 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:41:34,406 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:42:38,214 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:07,372 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:08,048 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:08,540 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:10,159 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:11,184 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:12,555 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:12,937 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:13,109 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:13,510 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:13,667 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:17,715 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:18,990 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:20,137 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:25,163 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:25,952 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:27,342 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:28,203 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:29,402 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:43:29,763 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:44:20,769 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:44:29,341 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:45:39,742 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:45:40,900 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:47:41,572 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-18 17:47:43,084 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-22 11:13:14,433 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-22 11:13:18,173 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-22 11:13:21,199 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-24 12:48:29,173 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-24 12:48:35,629 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-24 13:21:37,700 ERROR frappe New Exception collected with id: 2023-08-24 13:21:37.580264-47.190.78.200-9e5
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:21:50,991 ERROR frappe New Exception collected with id: 2023-08-24 13:21:50.873802-47.190.78.200-846
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:22:22,667 ERROR frappe New Exception collected with id: 2023-08-24 13:22:22.663801-47.190.78.200-28e
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:22:34,579 ERROR frappe New Exception collected with id: 2023-08-24 13:22:34.576041-47.190.78.200-467
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:22:54,339 ERROR frappe New Exception collected with id: 2023-08-24 13:22:54.233262-47.190.78.200-3f7
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:25:48,597 ERROR frappe New Exception collected with id: 2023-08-24 13:25:48.593662-47.190.78.200-cc6
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-29 15:59:53,318 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-29 15:59:57,087 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:31:23,251 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:33:26,691 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:34:00,488 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:36:19,402 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:36:19,886 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:38:32,365 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 14:38:50,117 ERROR frappe Error receiving data: Expecting value: line 1 column 1 (char 0)
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-08-31 15:01:35,296 ERROR frappe Error receiving data: 'str' object has no attribute 'json'
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
+2023-09-14 16:05:45,075 ERROR frappe New Exception collected with id: 2023-09-14 16:05:44.974995-47.190.78.200-852
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.sales_invoice.create_sales_invoice'}

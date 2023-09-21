@@ -1,0 +1,24 @@
+2023-07-21 14:48:19,942 ERROR frappe New Exception collected with id: 2023-07-21 14:48:19.878020-45.23.177.17-139
+Site: erp.aurumwholesale.com
+Form Dict: {'user': 'Administrator'}
+2023-07-21 14:48:31,770 ERROR frappe New Exception collected with id: 2023-07-21 14:48:31.692319-45.23.177.17-6ba
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Website Theme', 'fields': '["`tabWebsite Theme`.`name`","`tabWebsite Theme`.`owner`","`tabWebsite Theme`.`creation`","`tabWebsite Theme`.`modified`","`tabWebsite Theme`.`modified_by`","`tabWebsite Theme`.`_user_tags`","`tabWebsite Theme`.`_comments`","`tabWebsite Theme`.`_assign`","`tabWebsite Theme`.`_liked_by`","`tabWebsite Theme`.`docstatus`","`tabWebsite Theme`.`idx`","`tabWebsite Theme`.`theme`","`tabWebsite Theme`.`module`"]', 'filters': '[]', 'order_by': '`tabWebsite Theme`.`modified` DESC', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabWebsite Theme`.`name`', 'with_comment_count': 'true'}
+2023-08-24 13:21:37,700 ERROR frappe New Exception collected with id: 2023-08-24 13:21:37.580264-47.190.78.200-9e5
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:21:50,991 ERROR frappe New Exception collected with id: 2023-08-24 13:21:50.873802-47.190.78.200-846
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:22:22,667 ERROR frappe New Exception collected with id: 2023-08-24 13:22:22.663801-47.190.78.200-28e
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:22:34,579 ERROR frappe New Exception collected with id: 2023-08-24 13:22:34.576041-47.190.78.200-467
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:22:54,339 ERROR frappe New Exception collected with id: 2023-08-24 13:22:54.233262-47.190.78.200-3f7
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
+2023-08-24 13:25:48,597 ERROR frappe New Exception collected with id: 2023-08-24 13:25:48.593662-47.190.78.200-cc6
+Site: erp.aurumwholesale.com
+Form Dict: {'doctype': 'Account', 'parent': 'Accounts', 'is_root': 'true', 'cmd': 'erpnext.accounts.utils.get_children'}
