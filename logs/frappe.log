@@ -277,3 +277,48 @@ Form Dict: {'cmd': 'erpnext.testhook.receive_data'}
 2023-09-14 16:05:45,075 ERROR frappe New Exception collected with id: 2023-09-14 16:05:44.974995-47.190.78.200-852
 Site: erpenzemic.mol-tech.com
 Form Dict: {'cmd': 'erpnext.sales_invoice.create_sales_invoice'}
+2023-09-21 11:32:33,237 ERROR frappe New Exception collected with id: 2023-09-21 11:32:33.170348-47.190.78.200-ed2
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.add_address'}
+2023-09-21 11:43:59,633 ERROR frappe Error creating address: [Address, Inception Sciences, Inc.-Billing-Billing]: city
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.receive_data'}
+2023-09-21 11:45:16,256 ERROR frappe Error creating address: 'Customer' object has no attribute 'link_doctype'
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.receive_data'}
+2023-09-21 12:04:33,276 ERROR frappe Error creating address: Module import failed for None, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.'
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.receive_data'}
+2023-09-21 12:11:40,269 ERROR frappe Error creating address: Link Document Type must be set first
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.receive_data'}
+2023-09-21 12:17:45,596 ERROR frappe New Exception collected with id: 2023-09-21 12:17:45.510398-47.190.78.200-45c
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.get_address_details'}
+2023-09-21 12:22:37,620 ERROR frappe Error retrieving address details: Address Abbvie Inc-Billing-4 not found
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.get_address_details'}
+2023-09-21 12:23:06,343 ERROR frappe Error retrieving address details: Address Inception Sciences, Inc. not found
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.get_address_details'}
+2023-09-21 12:24:15,786 ERROR frappe Error retrieving address details: Address Inception Sciences, Inc. not found
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.get_address_details'}
+2023-09-21 13:11:52,974 ERROR frappe New Exception collected with id: 2023-09-21 13:11:52.876683-47.190.78.200-8cb
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.add_address'}
+2023-09-21 13:13:56,784 ERROR frappe Error creating address: [Address, Inception Sciences, Inc.-Billing-Billing]: city
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.receive_data'}
+2023-09-21 13:14:45,339 ERROR frappe Error creating address: 'Customer' object has no attribute 'link_doctype'
+Site: erpenzemic.mol-tech.com
+Form Dict: {'cmd': 'erpnext.address.receive_data'}
+2023-09-22 14:05:07,793 ERROR frappe New Exception collected with id: 2023-09-22 14:05:07.723010-47.190.78.200-40e
+Site: erpenzemic.mol-tech.com
+Form Dict: {'report_name': 'Profit and Loss Statement', 'filters': '{"filter_based_on":"Fiscal Year","period_start_date":"2020-04-01","period_end_date":"2021-03-31","periodicity":"Yearly","include_default_book_entries":1,"company":"Enzemic"}', 'ignore_prepared_report': '1', 'cmd': 'frappe.desk.query_report.run'}
+2023-09-22 14:33:14,062 ERROR frappe New Exception collected with id: 2023-09-22 14:33:13.989082-47.190.78.200-bfe
+Site: erpenzemic.mol-tech.com
+Form Dict: {'report_name': 'Budget Variance Report', 'filters': '{"period":"Monthly","budget_against":"Cost Center","show_cumulative":0,"company":"Enzemic"}', 'ignore_prepared_report': '1', 'cmd': 'frappe.desk.query_report.run'}
+2023-09-22 14:34:05,351 ERROR frappe New Exception collected with id: 2023-09-22 14:34:05.265065-47.190.78.200-531
+Site: erpenzemic.mol-tech.com
+Form Dict: {'report_name': 'Budget Variance Report', 'filters': '{"period":"Monthly","budget_against":"Cost Center","show_cumulative":0,"company":"Enzemic"}', 'ignore_prepared_report': '1', 'cmd': 'frappe.desk.query_report.run'}

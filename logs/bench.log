@@ -459,3 +459,25 @@
 2023-09-21 10:37:47,099 INFO /usr/local/bin/bench worker --queue short
 2023-09-21 10:37:47,100 INFO /usr/local/bin/bench worker --queue default
 2023-09-21 10:37:47,100 INFO /usr/local/bin/bench worker --queue long
+2023-09-21 12:00:01,378 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-21 13:31:35,306 INFO /usr/local/bin/bench --restasrt
+2023-09-21 13:31:39,596 INFO /usr/local/bin/bench --restart
+2023-09-21 13:31:46,958 INFO /usr/local/bin/bench -restart
+2023-09-21 13:33:04,394 INFO /usr/local/bin/bench restart
+2023-09-21 13:33:09,003 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-09-21 13:33:12,278 INFO /usr/local/bin/bench worker --queue default
+2023-09-21 13:33:12,294 INFO /usr/local/bin/bench schedule
+2023-09-21 13:33:12,302 INFO /usr/local/bin/bench worker --queue short
+2023-09-21 13:33:12,304 INFO /usr/local/bin/bench worker --queue long
+2023-09-21 13:33:15,375 INFO A newer version of bench is available: 5.16.4 → 5.17.2
+2023-09-21 18:00:01,178 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 00:00:01,439 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 06:00:01,899 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 12:00:01,306 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-22 13:35:10,213 INFO /usr/local/bin/bench restart
+2023-09-22 13:35:32,009 DEBUG cd /home/admin123/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-09-22 13:35:35,154 INFO /usr/local/bin/bench schedule
+2023-09-22 13:35:35,155 INFO /usr/local/bin/bench worker --queue default
+2023-09-22 13:35:35,162 INFO /usr/local/bin/bench worker --queue short
+2023-09-22 13:35:35,167 INFO /usr/local/bin/bench worker --queue long
+2023-09-22 13:35:38,248 INFO A newer version of bench is available: 5.16.4 → 5.17.2

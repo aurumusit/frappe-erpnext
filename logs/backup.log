@@ -11851,3 +11851,237 @@ Backup Summary for erpenzemic.mol-tech.com at 2023-09-07 08:00:15.664039
 Config  : ./erpenzemic.mol-tech.com/private/backups/20230907_080013-erpenzemic_mol-tech_com-site_config_backup.json 161.0B
 Database: ./erpenzemic.mol-tech.com/private/backups/20230907_080013-erpenzemic_mol-tech_com-database.sql.gz         2.3MiB
 Backup for Site erpenzemic.mol-tech.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5eb40359d6988c40 -p********** _5eb40359d6988c40 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./auerp.com/private/backups/20230921_080002-auerp_com-database.sql.gz
+
+Backup Summary for auerp.com at 2023-09-21 08:00:05.081442
+Config  : ./auerp.com/private/backups/20230921_080002-auerp_com-site_config_backup.json 185.0B
+Database: ./auerp.com/private/backups/20230921_080002-auerp_com-database.sql.gz         1.3MiB
+Backup for Site auerp.com has been successfully completed
+File ./erp.1click.com/private/backups/20230907_080005-erp_1click_com-database.sql.gz is older than 24 hours
+File ./erp.1click.com/private/backups/20230907_080005-erp_1click_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f1d74cf4b830825d -p********** _f1d74cf4b830825d -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-database.sql.gz
+
+Backup Summary for erp.1click.com at 2023-09-21 08:00:07.814121
+Config  : ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-site_config_backup.json 113.0B
+Database: ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-database.sql.gz         1.2MiB
+Backup for Site erp.1click.com has been successfully completed
+File ./erp.aurumwholesale.com/private/backups/20230907_080008-erp_aurumwholesale_com-site_config_backup.json is older than 24 hours
+File ./erp.aurumwholesale.com/private/backups/20230907_080008-erp_aurumwholesale_com-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _1d6d440e3fe0e681 -p********** _1d6d440e3fe0e681 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-database.sql.gz
+
+Backup Summary for erp.aurumwholesale.com at 2023-09-21 08:00:10.413160
+Config  : ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-site_config_backup.json 116.0B
+Database: ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-database.sql.gz         1.2MiB
+Backup for Site erp.aurumwholesale.com has been successfully completed
+File ./erp.echemportal.com/private/backups/20230907_080010-erp_echemportal_com-site_config_backup.json is older than 24 hours
+File ./erp.echemportal.com/private/backups/20230907_080010-erp_echemportal_com-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _ee1e465111c0562f -p********** _ee1e465111c0562f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-database.sql.gz
+
+Backup Summary for erp.echemportal.com at 2023-09-21 08:00:13.004518
+Config  : ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-site_config_backup.json 94.0B
+Database: ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-database.sql.gz         1.5MiB
+Backup for Site erp.echemportal.com has been successfully completed
+File ./erpenzemic.mol-tech.com/private/backups/20230907_080013-erpenzemic_mol-tech_com-database.sql.gz is older than 24 hours
+File ./erpenzemic.mol-tech.com/private/backups/20230907_080013-erpenzemic_mol-tech_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _295f49a9e326a905 -p********** _295f49a9e326a905 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-database.sql.gz
+
+Backup Summary for erpenzemic.mol-tech.com at 2023-09-21 08:00:15.596367
+Config  : ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-site_config_backup.json 161.0B
+Database: ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-database.sql.gz         2.3MiB
+Backup for Site erpenzemic.mol-tech.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5eb40359d6988c40 -p********** _5eb40359d6988c40 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./auerp.com/private/backups/20230921_140001-auerp_com-database.sql.gz
+
+Backup Summary for auerp.com at 2023-09-21 14:00:04.230050
+Config  : ./auerp.com/private/backups/20230921_140001-auerp_com-site_config_backup.json 185.0B
+Database: ./auerp.com/private/backups/20230921_140001-auerp_com-database.sql.gz         1.3MiB
+Backup for Site auerp.com has been successfully completed
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f1d74cf4b830825d -p********** _f1d74cf4b830825d -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-database.sql.gz
+
+Backup Summary for erp.1click.com at 2023-09-21 14:00:06.479382
+Config  : ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-site_config_backup.json 113.0B
+Database: ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-database.sql.gz         1.2MiB
+Backup for Site erp.1click.com has been successfully completed
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _1d6d440e3fe0e681 -p********** _1d6d440e3fe0e681 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-database.sql.gz
+
+Backup Summary for erp.aurumwholesale.com at 2023-09-21 14:00:08.724791
+Config  : ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-site_config_backup.json 116.0B
+Database: ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-database.sql.gz         1.2MiB
+Backup for Site erp.aurumwholesale.com has been successfully completed
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _ee1e465111c0562f -p********** _ee1e465111c0562f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-database.sql.gz
+
+Backup Summary for erp.echemportal.com at 2023-09-21 14:00:11.235362
+Config  : ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-site_config_backup.json 94.0B
+Database: ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-database.sql.gz         1.5MiB
+Backup for Site erp.echemportal.com has been successfully completed
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _295f49a9e326a905 -p********** _295f49a9e326a905 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-database.sql.gz
+
+Backup Summary for erpenzemic.mol-tech.com at 2023-09-21 14:00:13.825232
+Config  : ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-site_config_backup.json 161.0B
+Database: ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-database.sql.gz         2.3MiB
+Backup for Site erpenzemic.mol-tech.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5eb40359d6988c40 -p********** _5eb40359d6988c40 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./auerp.com/private/backups/20230921_200002-auerp_com-database.sql.gz
+
+Backup Summary for auerp.com at 2023-09-21 20:00:04.667470
+Config  : ./auerp.com/private/backups/20230921_200002-auerp_com-site_config_backup.json 185.0B
+Database: ./auerp.com/private/backups/20230921_200002-auerp_com-database.sql.gz         1.3MiB
+Backup for Site auerp.com has been successfully completed
+File ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-site_config_backup.json is recent
+File ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f1d74cf4b830825d -p********** _f1d74cf4b830825d -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-database.sql.gz
+
+Backup Summary for erp.1click.com at 2023-09-21 20:00:07.018103
+Config  : ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-site_config_backup.json 113.0B
+Database: ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-database.sql.gz         1.2MiB
+Backup for Site erp.1click.com has been successfully completed
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-database.sql.gz is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _1d6d440e3fe0e681 -p********** _1d6d440e3fe0e681 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-database.sql.gz
+
+Backup Summary for erp.aurumwholesale.com at 2023-09-21 20:00:09.528487
+Config  : ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-site_config_backup.json 116.0B
+Database: ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-database.sql.gz         1.2MiB
+Backup for Site erp.aurumwholesale.com has been successfully completed
+File ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-database.sql.gz is recent
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _ee1e465111c0562f -p********** _ee1e465111c0562f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-database.sql.gz
+
+Backup Summary for erp.echemportal.com at 2023-09-21 20:00:11.985371
+Config  : ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-site_config_backup.json 94.0B
+Database: ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-database.sql.gz         1.5MiB
+Backup for Site erp.echemportal.com has been successfully completed
+File ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _295f49a9e326a905 -p********** _295f49a9e326a905 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-database.sql.gz
+
+Backup Summary for erpenzemic.mol-tech.com at 2023-09-21 20:00:14.379023
+Config  : ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-site_config_backup.json 161.0B
+Database: ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-database.sql.gz         2.4MiB
+Backup for Site erpenzemic.mol-tech.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5eb40359d6988c40 -p********** _5eb40359d6988c40 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./auerp.com/private/backups/20230922_020002-auerp_com-database.sql.gz
+
+Backup Summary for auerp.com at 2023-09-22 02:00:04.588687
+Config  : ./auerp.com/private/backups/20230922_020002-auerp_com-site_config_backup.json 185.0B
+Database: ./auerp.com/private/backups/20230922_020002-auerp_com-database.sql.gz         1.3MiB
+Backup for Site auerp.com has been successfully completed
+File ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-site_config_backup.json is recent
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-site_config_backup.json is recent
+File ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f1d74cf4b830825d -p********** _f1d74cf4b830825d -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.1click.com/private/backups/20230922_020004-erp_1click_com-database.sql.gz
+
+Backup Summary for erp.1click.com at 2023-09-22 02:00:07.003651
+Config  : ./erp.1click.com/private/backups/20230922_020004-erp_1click_com-site_config_backup.json 113.0B
+Database: ./erp.1click.com/private/backups/20230922_020004-erp_1click_com-database.sql.gz         1.2MiB
+Backup for Site erp.1click.com has been successfully completed
+File ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-database.sql.gz is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-database.sql.gz is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _1d6d440e3fe0e681 -p********** _1d6d440e3fe0e681 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.aurumwholesale.com/private/backups/20230922_020007-erp_aurumwholesale_com-database.sql.gz
+
+Backup Summary for erp.aurumwholesale.com at 2023-09-22 02:00:09.088194
+Config  : ./erp.aurumwholesale.com/private/backups/20230922_020007-erp_aurumwholesale_com-site_config_backup.json 116.0B
+Database: ./erp.aurumwholesale.com/private/backups/20230922_020007-erp_aurumwholesale_com-database.sql.gz         1.2MiB
+Backup for Site erp.aurumwholesale.com has been successfully completed
+File ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-database.sql.gz is recent
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-database.sql.gz is recent
+File ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _ee1e465111c0562f -p********** _ee1e465111c0562f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.echemportal.com/private/backups/20230922_020009-erp_echemportal_com-database.sql.gz
+
+Backup Summary for erp.echemportal.com at 2023-09-22 02:00:11.137857
+Config  : ./erp.echemportal.com/private/backups/20230922_020009-erp_echemportal_com-site_config_backup.json 94.0B
+Database: ./erp.echemportal.com/private/backups/20230922_020009-erp_echemportal_com-database.sql.gz         1.5MiB
+Backup for Site erp.echemportal.com has been successfully completed
+File ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _295f49a9e326a905 -p********** _295f49a9e326a905 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpenzemic.mol-tech.com/private/backups/20230922_020011-erpenzemic_mol-tech_com-database.sql.gz
+
+Backup Summary for erpenzemic.mol-tech.com at 2023-09-22 02:00:13.712714
+Config  : ./erpenzemic.mol-tech.com/private/backups/20230922_020011-erpenzemic_mol-tech_com-site_config_backup.json 161.0B
+Database: ./erpenzemic.mol-tech.com/private/backups/20230922_020011-erpenzemic_mol-tech_com-database.sql.gz         2.4MiB
+Backup for Site erpenzemic.mol-tech.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5eb40359d6988c40 -p********** _5eb40359d6988c40 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./auerp.com/private/backups/20230922_080002-auerp_com-database.sql.gz
+
+Backup Summary for auerp.com at 2023-09-22 08:00:04.205872
+Config  : ./auerp.com/private/backups/20230922_080002-auerp_com-site_config_backup.json 185.0B
+Database: ./auerp.com/private/backups/20230922_080002-auerp_com-database.sql.gz         1.3MiB
+Backup for Site auerp.com has been successfully completed
+File ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230922_020004-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-database.sql.gz is recent
+File ./erp.1click.com/private/backups/20230922_020004-erp_1click_com-site_config_backup.json is recent
+File ./erp.1click.com/private/backups/20230921_200004-erp_1click_com-site_config_backup.json is recent
+File ./erp.1click.com/private/backups/20230921_080005-erp_1click_com-site_config_backup.json is recent
+File ./erp.1click.com/private/backups/20230921_140004-erp_1click_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f1d74cf4b830825d -p********** _f1d74cf4b830825d -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.1click.com/private/backups/20230922_080004-erp_1click_com-database.sql.gz
+
+Backup Summary for erp.1click.com at 2023-09-22 08:00:06.628975
+Config  : ./erp.1click.com/private/backups/20230922_080004-erp_1click_com-site_config_backup.json 113.0B
+Database: ./erp.1click.com/private/backups/20230922_080004-erp_1click_com-database.sql.gz         1.2MiB
+Backup for Site erp.1click.com has been successfully completed
+File ./erp.aurumwholesale.com/private/backups/20230922_020007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-database.sql.gz is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_200007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_080007-erp_aurumwholesale_com-site_config_backup.json is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-database.sql.gz is recent
+File ./erp.aurumwholesale.com/private/backups/20230922_020007-erp_aurumwholesale_com-database.sql.gz is recent
+File ./erp.aurumwholesale.com/private/backups/20230921_140006-erp_aurumwholesale_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _1d6d440e3fe0e681 -p********** _1d6d440e3fe0e681 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.aurumwholesale.com/private/backups/20230922_080006-erp_aurumwholesale_com-database.sql.gz
+
+Backup Summary for erp.aurumwholesale.com at 2023-09-22 08:00:08.899720
+Config  : ./erp.aurumwholesale.com/private/backups/20230922_080006-erp_aurumwholesale_com-site_config_backup.json 116.0B
+Database: ./erp.aurumwholesale.com/private/backups/20230922_080006-erp_aurumwholesale_com-database.sql.gz         1.2MiB
+Backup for Site erp.aurumwholesale.com has been successfully completed
+File ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230922_020009-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230922_020009-erp_echemportal_com-database.sql.gz is recent
+File ./erp.echemportal.com/private/backups/20230921_080010-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-site_config_backup.json is recent
+File ./erp.echemportal.com/private/backups/20230921_140008-erp_echemportal_com-database.sql.gz is recent
+File ./erp.echemportal.com/private/backups/20230921_200009-erp_echemportal_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _ee1e465111c0562f -p********** _ee1e465111c0562f -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.echemportal.com/private/backups/20230922_080008-erp_echemportal_com-database.sql.gz
+
+Backup Summary for erp.echemportal.com at 2023-09-22 08:00:11.223680
+Config  : ./erp.echemportal.com/private/backups/20230922_080008-erp_echemportal_com-site_config_backup.json 94.0B
+Database: ./erp.echemportal.com/private/backups/20230922_080008-erp_echemportal_com-database.sql.gz         1.5MiB
+Backup for Site erp.echemportal.com has been successfully completed
+File ./erpenzemic.mol-tech.com/private/backups/20230922_020011-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_080013-erpenzemic_mol-tech_com-site_config_backup.json is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_140011-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230922_020011-erpenzemic_mol-tech_com-database.sql.gz is recent
+File ./erpenzemic.mol-tech.com/private/backups/20230921_200011-erpenzemic_mol-tech_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _295f49a9e326a905 -p********** _295f49a9e326a905 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpenzemic.mol-tech.com/private/backups/20230922_080011-erpenzemic_mol-tech_com-database.sql.gz
+
+Backup Summary for erpenzemic.mol-tech.com at 2023-09-22 08:00:13.811871
+Config  : ./erpenzemic.mol-tech.com/private/backups/20230922_080011-erpenzemic_mol-tech_com-site_config_backup.json 161.0B
+Database: ./erpenzemic.mol-tech.com/private/backups/20230922_080011-erpenzemic_mol-tech_com-database.sql.gz         2.4MiB
+Backup for Site erpenzemic.mol-tech.com has been successfully completed
